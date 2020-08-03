@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: helloworld2
+spec:
+  selector:
+    matchLabels:
+      app: helloworld2
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: helloworld2
+    spec:
+      containers:
+      - name: helloworld2
+        image: "{{ .Values.image }}:{{ .Values.tag }}"
+        ports:
+        - containerPort: {{ .Values.port }}
