@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: release
+  namespace: default
+spec:
+  releaseName: "release"
+  chart:
+    repository: https://github.com/CarolineTeicher/operator.git
+    ref: "master"
+    path: helm_playground/charts
+    version: 3.2.0

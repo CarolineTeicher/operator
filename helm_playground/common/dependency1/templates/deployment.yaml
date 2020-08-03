@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: helloworld2
@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: helloworld2
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
