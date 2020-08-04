@@ -9,4 +9,3 @@ spec:
     git: git@github.com:carolineteicher/operator
     path: helm_playground/charts
     ref: master
-  version: 3.2.0
