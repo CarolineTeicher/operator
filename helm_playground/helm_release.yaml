@@ -1,13 +1,12 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: podinfo
+  name: release
   namespace: default
 spec:
+  releaseName: "release"
   chart:
-    git: git@github.com:CarolineTeicher/operator
+    git: git@github.com:carolineteicher/operator
     path: helm_playground/charts
-    name: podinfo
-    version: 3.2.0
-  values:
-    replicaCount: 3
+    ref: master
+  version: 3.2.0
