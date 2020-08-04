@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   chart:
-    git: git@github.com:CarolineTeicher/operator/helm_playground
-    path: charts
+    git: git@github.com:CarolineTeicher/operator
+    path: helm_playground/charts
     name: podinfo
     version: 3.2.0
   values:
