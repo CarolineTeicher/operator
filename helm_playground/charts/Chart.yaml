@@ -25,4 +25,4 @@ appVersion: 1.17.1
 dependencies:
 - name: podinfo
   repository: https://stefanprodan.github.io/podinfo
-  version: 0.1.1
+  version: 4.0.6
