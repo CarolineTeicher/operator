@@ -23,6 +23,6 @@ version: 0.2.2
 appVersion: 1.17.1
 
 dependencies:
-- name: dependency2
+- name: dependency1
   repository: https://github.com/CarolineTeicher/operator/tree/master/helm_playground/common/dependency1
   version: 0.1.1
