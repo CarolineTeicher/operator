@@ -25,7 +25,7 @@ appVersion: 1.17.1
 dependencies:
 - name: dependency1
   git: git@github.com:carolineteicher/operator
-  path: helm_playground/charts/dependency1
+  path: helm_playground/common/dependency1
   version: 0.1.1
 # - name: podinfo
 #   repository: https://stefanprodan.github.io/podinfo
