@@ -24,5 +24,5 @@ appVersion: 1.17.1
 
 dependencies:
 - name: dependency1
-  repository: file://../common/dependency1
+  repository: https://github.com/CarolineTeicher/operator/tree/master/helm_playground/common/dependency1
   version: 0.1.1
